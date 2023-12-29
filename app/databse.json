@@ -1,0 +1,360 @@
+{
+  "events": [
+    {
+      "timestamp": "2023-12-29T08:00:50",
+      "is_driving_safe": true,
+      "vehicle_id": 1236,
+      "location_type": "city_center"
+    },
+    {
+      "timestamp": "2023-12-29T08:00:51",
+      "is_driving_safe": true,
+      "vehicle_id": 1236,
+      "location_type": "city_center"
+    },
+    {
+      "timestamp": "2023-12-29T08:27:51",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "city_center"
+    },
+    {
+      "timestamp": "2023-12-29T08:28:51",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "city_center"
+    },
+    {
+      "timestamp": "2023-12-29T08:28:59",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "city_center"
+    },
+    {
+      "timestamp": "2023-12-29T08:29:26",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "city_center"
+    },
+    {
+      "timestamp": "2023-12-29T08:29:26",
+      "is_driving_safe": false,
+      "vehicle_id": 1237,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:29:42",
+      "is_driving_safe": false,
+      "vehicle_id": 1237,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:30:42",
+      "is_driving_safe": false,
+      "vehicle_id": 1237,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:31:42",
+      "is_driving_safe": false,
+      "vehicle_id": 1237,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:32:42",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "highway"
+    },
+    {
+      "timestamp": "2023-12-29T08:32:48",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "highway"
+    },
+    {
+      "timestamp": "2023-12-29T08:32:49",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "highway"
+    },
+    {
+      "timestamp": "2023-12-29T08:33:20",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "highway"
+    },
+    {
+      "timestamp": "2023-12-29T08:33:50",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "highway"
+    },
+    {
+      "timestamp": "2023-12-29T08:34:10",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "highway"
+    },
+    {
+      "timestamp": "2023-12-29T08:35:00",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "highway"
+    },
+    {
+      "timestamp": "2023-12-29T08:35:01",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "highway"
+    },
+    {
+      "timestamp": "2023-12-29T08:35:01",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:36:01",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:36:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:36:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:49:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:50:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:51:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:49:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1237,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:50:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1237,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:51:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1237,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:52:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1237,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:53:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1237,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T08:51:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1237,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T08:52:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1237,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T08:53:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1237,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T08:54:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1237,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T08:55:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1237,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T09:00:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T09:29:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T09:30:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T09:31:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T09:32:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T09:35:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T09:37:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T09:38:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T09:38:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T09:39:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T09:40:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T09:41:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T10:45:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T10:46:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "residential"
+    },
+    {
+      "timestamp": "2023-12-29T10:49:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T11:12:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "commercial"
+    },
+    {
+      "timestamp": "2023-12-29T11:13:03",
+      "is_driving_safe": false,
+      "vehicle_id": 1236,
+      "location_type": "residential"
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "location_type": "city_center",
+      "timestamp": "2023-12-29 08:29:42+00:00"
+    },
+    {
+      "id": 2,
+      "location_type": "highway",
+      "timestamp": "2023-12-29 08:35:01+00:00"
+    },
+    {
+      "id": 3,
+      "location_type": "residential",
+      "timestamp": "2023-12-29 08:53:11+00:00"
+    },
+    {
+      "id": 4,
+      "location_type": "commercial",
+      "timestamp": "2023-12-29 09:33:29+00:00"
+    },
+    {
+      "id": 5,
+      "location_type": "commercial",
+      "timestamp": "2023-12-29 09:39:30+00:00"
+    },
+    {
+      "id": 6,
+      "location_type": "residential",
+      "timestamp": "2023-12-29 10:49:02+00:00"
+    },
+    {
+      "id": 7,
+      "location_type": "residential",
+      "timestamp": "2023-12-29 11:15:45+00:00"
+    }
+  ],
+  "location_thresholds": {
+    "highway": 4,
+    "city_center": 3,
+    "commercial": 2,
+    "residential": 1
+  },
+  "last_alert_time": "2023-12-29 11:15:45+00:00"
+}
