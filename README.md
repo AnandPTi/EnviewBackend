@@ -33,9 +33,28 @@ This project follows the directory structure outlined above:
 2. Run the application:
 
     ```bash
-    python run.py
+    python3 run.py
     ```
-
+## Note:
+- For better visibility of the functioning of these codes, you can use Thunder Client for POST and GET
+- Copy below link 
+    ```bash
+    http://127.0.0.1:5000/event
+    ```
+- Now provide JSON data for posting like the below example
+    ```bash
+    {
+    "timestamp": "2023-12-30T04:48:43",
+    "is_driving_safe": false,
+    "vehicle_id": 1238,
+    "location_type": "commercial"
+    }
+    ```
+- The above data gets stored in the event of database.json, and then calculating the threshold will generate an alert.
+- For GET result, choose the GET option in Thunder Client and then paste the below link
+   ```bash
+     http://127.0.0.1:5000/alert/alert_id
+   ```
 ## APIs
 
 - **POST /event:** Receive driving events from the IoT device.
@@ -44,4 +63,4 @@ This project follows the directory structure outlined above:
 ## Running Tests
 
 ```bash
-python -m unittest discover -s tests
+python3 -m unittest discover -s tests
