@@ -29,6 +29,7 @@ class RuleEngine:
 
     def store_event(self, event):
         self.load_data()
+        
         self.database['events'].append(event)
         self.save_data()
 
@@ -50,6 +51,16 @@ class RuleEngine:
             print(event)
 
         # Check if an alert was generated in the past 5 minutes
+        # last_alert_times = {}
+        # vehicle_id = event.get('vehicle_id')
+        # if vehicle_id in last_alert_times in self.database and current_time - datetime.fromisoformat(self.database['last_alert_time']) <= timedelta(minutes=5):
+        #     return
+            
+        # if 'last_alert_times' in self.database:
+        #     for vehicle_id, last_alert_time in self.database['last_alert_times'].items():
+        #         if current_time - datetime.fromisoformat(last_alert_time) <= timedelta(minutes=5):
+        #             return
+
         if 'last_alert_time' in self.database and current_time - datetime.fromisoformat(self.database['last_alert_time']) <= timedelta(minutes=5):
             return
 
@@ -86,13 +97,22 @@ class RuleEngine:
                     self.database['alerts'].append(alert)
 
                     # Update last alert time
+                    
+        #             for vehicle_id in 'last_alert_times':
+        #                 last_alert_times[vehicle_id] = str(current_time)
+        
+        # # Save the last alert times to the database
+        #             self.database['last_alert_times'] = last_alert_times
+        #             self.save_data()
+                    #updeated 234-237
+                    # self.database['last_alert_times'][vehicle_id] = str(current_time)
+                    
+                    # # Save the last alert times to the database
+                    # self.save_data()
                     self.database['last_alert_time'] = str(current_time)
                     self.save_data()
                     print(f"Alert Generated for Vehicle ID {vehicle_id} in {location_type}!")
                     break
-
-
-
 
 
 # from datetime import datetime, timedelta
