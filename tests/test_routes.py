@@ -10,10 +10,12 @@ class TestRoutes(unittest.TestCase):
 
     def test_handle_event_valid(self):
         # Test handling a valid event
-        event_data = {'timestamp': '2023-05-24T05:55:00+00:00', 'is_driving_safe': False, 'location_type': 'highway'}
+        event_data = {'timestamp': '2023-05-24T05:55:00+00:00', 'is_driving_safe': False, 'location_type': 'highway', 'vehicle_id': 'ABC123'}
+        #event_data = {'timestamp': '2023-05-24T05:55:00+00:00', 'is_driving_safe': False, 'location_type': 'highway', 'vehicle_id': 'ABC123'}
         response = self.app.post('/event', json=event_data)
         self.assertEqual(response.status_code, 200)
         self.assertEqual(json.loads(response.data), {'message': 'Event received successfully'})
+        # Since you're storing events in the database, check the database instead of the rule_engine instance
         self.assertIn(event_data, self.rule_engine.database['events'])
 
     def test_handle_event_invalid_format(self):
@@ -22,10 +24,14 @@ class TestRoutes(unittest.TestCase):
         response = self.app.post('/event', json=invalid_event_data)
         self.assertEqual(response.status_code, 400)
         self.assertEqual(json.loads(response.data), {'error': 'Invalid event format'})
+        # Ensure that no event is stored in the database in case of invalid format
+        self.assertNotIn(invalid_event_data, self.rule_engine.database['events'])
 
     def test_get_alert_valid(self):
         # Test getting a valid alert
-        alert_data = {'id': 1, 'location_type': 'highway', 'timestamp': '2023-05-24T06:00:00+00:00'}
+        alert_data = {'id': 1, 'location_type': 'highway', 'timestamp': '2023-12-29T08:29:42+00:00'}
+
+        #alert_data = {'id': 1, 'location_type': 'highway', 'timestamp': '2023-05-24T06:00:00+00:00'}
         self.rule_engine.database['alerts'].append(alert_data)
         response = self.app.get('/alert/1')
         self.assertEqual(response.status_code, 200)
