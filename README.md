@@ -2,7 +2,7 @@
 
 ## Project Structure
 
-This project follows the directory structure outlined above:
+This project follows the directory structure outlined below:
 
 - **app:** Contains the main application code.
   - `__init__.py`: Initialization file for the app module.
